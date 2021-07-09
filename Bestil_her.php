@@ -4,37 +4,13 @@
 <head>
 	<meta charset="utf-8">
 	<!-- Primary Meta Tags -->
-<title>Rafle.dk - Underholdningsredskaber til motorikbesværede.</title>
-<meta name="title" content="Rafle.dk - Underholdningsredskaber til motorikbesværede.">
-<meta name="description" content="Bestil Rafle eller Penholder-sæt her">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.rafle.dk/Pages/Bestil_her.php">
-<meta property="og:title" content="Rafle.dk - Underholdningsredskaber til motorikbesværede.">
-<meta property="og:description" content="Bestil Rafle eller Penholder-sæt her">
-<meta property="og:image" content="https://rafle.dk/Media/Rafle/imgRafle026-crop.jpg">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://www.rafle.dk/Pages/Bestil_her.php">
-<meta property="twitter:title" content="Rafle.dk - Underholdningsredskaber til motorikbesværede.">
-<meta property="twitter:description" content="Bestil Rafle eller Penholder-sæt her">
-<meta property="twitter:image" content="https://rafle.dk/Media/Rafle/imgRafle026-crop.jpg">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../CSS/Style.css">
-    <link rel="stylesheet" href="../CSS/style_product.css">
-    <link rel="stylesheet" href="../CSS/style_contact.css">
-	<link rel="icon" type="image/x-icon" href="../Media/LOGO/Logo006_300x300.png"/>
-    <script src="../Javascripts/javascripts.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mail form</title>
 </head>
 
 <body>
-    <header w3-include-html="../Include/Navbar.html"></header>
     <div class="main-parrent-border">
         
-        <?php
+<?php
 // define variables and set to empty values
 $nameErr = $emailErr = $tjekbox = "";
 $name = $email = $adress = $tlf = $orderwhat = $comment = $okmess = "";
@@ -152,12 +128,9 @@ function test_input($data) {
 </form>
 <br> 
      </div>
-
 </main>
     </div>
-    <div class="bottomSpacer"></div>
-	<footer w3-include-html="../Include/Footer.html"></footer>
-
+  
 <script>
 includeHTML();
 </script>
