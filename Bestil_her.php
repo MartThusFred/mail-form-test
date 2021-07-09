@@ -36,7 +36,7 @@
         
         <?php
 // define variables and set to empty values
-$nameErr, $emailErr, $tjekbox = "";
+$nameErr = $emailErr = $tjekbox = "";
 $name = $email = $adress = $tlf = $orderwhat = $comment = $okmess = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
